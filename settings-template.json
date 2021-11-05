@@ -1,0 +1,25 @@
+{
+  "db": {
+    "authSource": "xbrowsersync",
+    "host": "$MONGOHOST",
+    "port": "$MONGOPORT",
+    "username": "xbrowsersyncdb",
+    "pass": "$XBROWSERSYNC_DB_PWD"
+  },
+  "server": {
+    "behindProxy": true
+  },
+  "location": "us",
+  "log": {
+    "file": {
+      "enabled": false
+    },
+    "stdout": {
+      "enabled": true
+    }
+  },
+  "message": {
+    "message": "Hello, world",
+    "online": true
+  }
+}
